@@ -1,4 +1,4 @@
-# Cloudflare Worker Deployment Guide
+npm# Cloudflare Worker Deployment Guide
 
 This application has been converted from a Railway deployment to a Cloudflare Worker for serverless execution.
 
