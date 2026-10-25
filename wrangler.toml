@@ -1,0 +1,14 @@
+name = "productivity-api"
+main = "src/index.ts"
+compatibility_date = "2024-10-25"
+compatibility_flags = ["nodejs_compat"]
+
+[build]
+command = "npm install && npm run build"
+
+[env.production]
+# Update with your domain and zone
+routes = [
+  { pattern = "api.example.com/*", zone_name = "example.com" }
+]
+
